@@ -19,12 +19,6 @@ scripting. The specific list of projects contained follows:
 * [0x0A. Python - Inheritance](./0x0A. Python - Inheritance)
 * [0x0B-python-input_output](./0x0B-python-input_output)
 
-## Author :
-
-* **Tolulope Fakunle** <[Tolulope05](https://github.com/Tolulope05)>
-
-## Acknowledgements :pray:
-
 All work contained in this project was completed as part of the curriculum for
 ALX Africa SE. ALX Afica is an online full-stack software
 engineering program that prepares students for careers in the tech industry
