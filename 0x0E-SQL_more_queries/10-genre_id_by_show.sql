@@ -1,4 +1,4 @@
---- Some issue
+-- Some issue
 
 SELECT tv_shows.title, tv_show_genres.genre_id
 from tv_shows, tv_show_genres
