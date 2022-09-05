@@ -2,7 +2,7 @@
 
 const argsNumber = parseInt(process.argv[2], 10);
 
-function factorial(number) {
+function factorial (number) {
   if (number === 0) {
     return 1;
   } else {
@@ -12,6 +12,6 @@ function factorial(number) {
 
 if (!argsNumber) {
   console.log(1);
-}else{
-    console.log(factorial(argsNumber))
+} else {
+  console.log(factorial(argsNumber));
 }

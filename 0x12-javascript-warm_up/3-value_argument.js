@@ -2,4 +2,4 @@
 
 const args = process.argv;
 
-console.log(args[2] ? args[2] : "No argument");
+console.log(args[2] ? args[2] : 'No argument');
