@@ -11,7 +11,7 @@ if (argsNumber.length === 0 || argsNumber.length === 1) {
   console.log(getMaximum(argsNumber));
 }
 
-function getMaximum() {
+function getMaximum () {
   let maximum = argsNumber[0];
   for (let i = 0; i < argsNumber.length; i++) {
     if (parseInt(maximum) < parseInt(argsNumber[i])) {
@@ -21,9 +21,9 @@ function getMaximum() {
   return maximum;
 }
 
-function removeByValue(maximum) {
+function removeByValue (maximum) {
   let index = argsNumber.indexOf(maximum);
-  while (index != -1) {
+  while (index !== -1) {
     argsNumber.splice(index, 1);
     index = argsNumber.indexOf(maximum);
   }
